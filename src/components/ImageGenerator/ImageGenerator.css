@@ -22,56 +22,64 @@
   font-weight: 600;
 }
 
-.image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  overflow: hidden;
+  object-fit: fill;
+  height: 30%;
+  margin: 0px auto;
+  align-content: center;
 }
 
-.img-loading{
-    display: flex;
-    flex-direction: column;
+.img-loading {
+  display: flex;
+  flex-direction: column;
 }
 
-.img-loading img{
-    width: 80%;
-    border-radius: 10px;
+.img-loading img {
+  width: 80%;
+  height: 20%;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.search-box{
-    display: flex;
-    width: 70%;
-    height: 50px;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(103, 103, 103);
+.search-box {
+  display: flex;
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(103, 103, 103);
 }
 
-.search-input{
-    width: 80%;
-    height: 50px;
-    background:transparent;
-    border: none;
-    outline: none;
-    font-size: 1.2rem;
-    color: white;
-    padding-left: 20px;
-    margin-right: 10px;
+.search-input {
+  width: 80%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: white;
+  padding-left: 20px;
+  margin-right: 10px;
 }
 
-.search-input::placeholder{
-    color: #999
+.search-input::placeholder {
+  color: #999;
 }
 
-.generate-image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    height: 45px;
-    padding: 2.5px;
-    border-radius: 20px;
-    background: #f20246;
-    cursor: pointer;
+.generate-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 45px;
+  padding: 2.5px;
+  border-radius: 20px;
+  background: #f20246;
+  cursor: pointer;
 }
